@@ -13,6 +13,19 @@ Form client side validation => https://developer.mozilla.org/en-US/docs/Learn/Fo
   - type: Specifies whether the data needs to be a number, an email address, or some other specific preset type.
   - pattern: Specifies a regular expression that defines a pattern the entered data needs to follow.
 
+Constraint Validation Api, to interact with preset form setting =>
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api
+
+const email = document.getElementById("mail");
+
+email.addEventListener("input", (event) => {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I am expecting an email address!");
+  } else {
+    email.setCustomValidity("");
+  }
+});
+
 
 Website security =>
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security
