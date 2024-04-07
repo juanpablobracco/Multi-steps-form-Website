@@ -16,19 +16,19 @@ This is a personal solution to a Frontmentor project.
 
 
 
-### Constraint Validation Api, to interact with preset form setting =>
+### Constraint Validation Api => https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api
 
-https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api
+To interact with preset form setting: 
 
-const email = document.getElementById("mail");
+    const email = document.getElementById("mail");
 
-email.addEventListener("input", (event) => {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("I am expecting an email address!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
+    email.addEventListener("input", (event) => {
+      if (email.validity.typeMismatch) {
+        email.setCustomValidity("I am expecting an email address!");
+      } else {
+        email.setCustomValidity("");
+      }
+    });
 
 
 
