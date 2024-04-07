@@ -3,7 +3,7 @@ This is a personal solution to a Frontmentor project.
 
 ## Research and basic usefull data
 
-Form client side validation => https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+### Form client side validation => https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
 
 - Builtin form validation:
   
@@ -13,7 +13,9 @@ Form client side validation => https://developer.mozilla.org/en-US/docs/Learn/Fo
   - type: Specifies whether the data needs to be a number, an email address, or some other specific preset type.
   - pattern: Specifies a regular expression that defines a pattern the entered data needs to follow.
 
-Constraint Validation Api, to interact with preset form setting =>
+
+### Constraint Validation Api, to interact with preset form setting =>
+
 https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api
 
 const email = document.getElementById("mail");
@@ -27,11 +29,11 @@ email.addEventListener("input", (event) => {
 });
 
 
-Website security =>
+### Website security =>
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security
 
 - Warning: Never trust data passed to your server from the client. Even if your form is validating correctly and preventing malformed input on the client-side, a malicious user can still alter the network request.
 
-header to place the navbar.
+
 
 
