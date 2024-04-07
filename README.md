@@ -1,6 +1,11 @@
 # Multi-steps-form-Website
 This is a personal solution to a Frontmentor project.
 
+Reference Designe
+
+<img width="549" alt="Reference-designe" src="https://github.com/juanpablobracco/Multi-steps-form-Website/assets/64668332/d8f93862-aa49-4569-ba1b-61144aaf4e1f">
+
+
     
 ## Research and basic usefull data
 
