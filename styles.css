@@ -1,0 +1,198 @@
+
+/* - Desktop: 1440px x 900*/
+
+/* - Mobile: 375px x 812 Iphone 11*/
+
+:root {
+    /* Colors */
+    --Marine-blue: hsl(213, 96%, 18%);
+    --Purplish-blue: hsl(243, 100%, 62%);
+    --Pastel-blue: hsl(228, 100%, 84%);
+    --Light-blue: hsl(206, 94%, 87%);
+    --Strawberry-red: hsl(354, 84%, 57%);
+    /* Neutral-colors */
+    --Cool-gray: hsl(231, 11%, 63%);
+    --Light-gray: hsl(229, 24%, 87%);
+    --Magnolia: hsl(217, 100%, 97%);
+    --Alabaster: hsl(231, 100%, 99%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Font */
+    --Font-size: 16px;
+    --Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu);
+    --Weights: 400, 500, 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--Alabaster);
+
+    font-family: 'Ubuntu', serif;
+    font: 'Ubuntu';
+    color: var(--Marine-blue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container {
+    width: 1030px;
+    height: 600px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    z-index: -1100;
+
+    background-color: var(--White);
+    border-radius: 40px;
+
+    box-shadow: 0px 0px 20px var(--Cool-gray);
+}  
+
+
+/* Left Navigation Bar */
+
+.navbar {
+    width: 27%;
+    margin: 20px;
+    background-image: url();
+}
+
+.navbarImage {
+    position: absolute;
+    z-index: -1000;
+}
+
+.navbarList {
+    position: relative;
+    z-index: 1000;
+    margin: 20px;
+    margin-left: 40px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: var(--White);
+}
+
+.navItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.navNumber {
+    font-size: 22px;
+    margin-right: 20px;
+
+    background-color: aliceblue;
+    border-width: 10px;
+    
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--Pastel-blue);
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font: 'Ubuntu';
+    font-weight: 400;
+
+}
+
+
+/* Form */
+
+.main {
+    margin: 50px 100px 20px 100px;
+    height: 87%;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+h1 {
+    font-size: 40px;
+}
+.subtitle {
+    margin-top: -20px;
+    color: var(--Cool-gray);
+    font-size: 16px;
+
+}
+
+label{
+    margin-bottom: -20px;
+}
+
+input {
+    height: 50px;
+    border-radius: 10px;
+    border-color: var(--Cool-gray);
+
+}
+
+button {
+    height: 60px;
+    width: 140px;
+    border-radius: 10px;
+
+    background-color: var(--Purplish-blue);
+
+}
+
+/* button:hover {
+    background-color: red; Ver como animar con hover
+
+} */
+
+.button {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    height: 80px;
+
+}
+
+/* Step 2 */
+
+.select-plan-cards {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+.cards {
+    width: 100px;
+    padding: 20px;
+
+    border: 2px solid var(--Light-gray);
+    border-radius: 10px;
+}
+
+.cards div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+
+}
