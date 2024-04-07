@@ -1,10 +1,6 @@
 # Multi-steps-form-Website
 This is a personal solution to a Frontmentor project.
 
-  ## Research and basic usefull data
-    ### Form client side validation
-    ### Constraint Validation Api
-    ### Website security
     
 ## Research and basic usefull data
 
@@ -17,6 +13,7 @@ This is a personal solution to a Frontmentor project.
   - min and max: Specifies the minimum and maximum values of numerical input types.
   - type: Specifies whether the data needs to be a number, an email address, or some other specific preset type.
   - pattern: Specifies a regular expression that defines a pattern the entered data needs to follow.
+
 
 
 ### Constraint Validation Api, to interact with preset form setting =>
@@ -32,6 +29,7 @@ email.addEventListener("input", (event) => {
     email.setCustomValidity("");
   }
 });
+
 
 
 ### Website security =>
