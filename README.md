@@ -3,6 +3,9 @@ This is a personal solution to a Frontmentor project.
 
 ## Reference Designe
 
+- Desktop: 1440px x 900
+- Mobile: 375px x 812 Iph
+
 <img width="549" alt="Reference-designe" src="https://github.com/juanpablobracco/Multi-steps-form-Website/assets/64668332/d8f93862-aa49-4569-ba1b-61144aaf4e1f">
 
 ## Deployed
